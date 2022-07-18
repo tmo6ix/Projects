@@ -1,0 +1,1059 @@
+@font-face {
+    font-family: Archivo;
+    src: url(Archivo/Archivo-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    font-family: Archivo;
+    background: white;
+    
+    
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.current {
+    color: green;
+}
+header {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+
+.container {
+    margin: 1em auto;
+    border-radius: 10px;
+    width: 90%;
+    background: white;
+    padding: 0 1em;
+    box-shadow:  0 1px 5px rgba(104, 104, 104, 0.8);
+    
+}
+
+
+.logo {
+    font-size: 1rem;
+    color: green;
+    padding: 20px;
+}
+
+
+
+.mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu-btn {
+    padding-right: 20px;
+}
+
+.nav-links {
+    height: 0;
+    overflow: hidden;
+
+}
+
+.show-links {
+    transition: all 0.3s linear;
+    height: 12em;
+    
+}
+
+.show-links li {
+    font-weight: 900;
+    
+}
+
+.show-links li a {
+    transition: all 0.3s linear;
+    display: block;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+
+.show-links li :hover, .show-links li :focus{
+    transition: all 0.3s linear;
+    background: rgb(240, 237, 237);
+}
+
+
+
+
+
+.hero-section {
+    width: 90%;
+    margin: 3em auto;
+}
+
+p{
+    
+    color: rgb(96, 93, 93);
+}
+
+
+.business {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: 2em;
+    
+}
+
+.business-info {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.business-info h1 {
+    font-size: 4em;
+    margin: 0 auto;
+    padding-bottom: .3em;
+}
+
+
+
+
+
+span {
+    color:green;
+}
+
+
+
+.business-info p {
+    line-height: 1.5;
+    text-align: center;
+    word-spacing: 2px;
+    
+}
+
+
+.started{
+    color: white;
+    padding: .5em 1em;
+    background: green;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 1em 0;
+}
+
+
+.work-done {
+    width: 60%;
+    margin: 3em auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+
+.work-done p{
+    text-align: center;
+    line-height: 1.5em;
+   
+    font-size: 1em;
+}
+.work-done h1 {
+    text-align: center;
+    color: green;
+}
+
+.work-done h5{
+    margin: .3em 0;
+    text-align: center;
+}
+
+.projects {
+
+    width: 30%;
+    
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+    padding: 5px;
+}
+
+
+.hours {
+    width: 30%;
+    
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+    padding: 5px;
+
+
+}
+
+
+.clients {
+    width: 30%;
+    
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 2em;
+    padding: 5px;
+
+}
+
+
+.second-hero {
+    width: 100%;
+    background: rgb(246, 237, 237);
+}
+.job {
+    width: 90%;
+    margin: auto;
+    
+}
+.job-info {
+    padding: 2.5em 0;
+}
+.job-info h3 {
+    padding-bottom: .3em;
+}
+
+.job-info p {
+    line-height: 1.5;
+}
+.job-details {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.job-details p {
+    text-align: justify;
+    line-height: 1.5;
+    
+}
+
+
+.job-details h4 {
+    margin: .8em 0;
+
+}
+
+.social {
+    min-height: 120px;
+}
+
+.search {
+    min-height: 120px;
+    margin-left: 4em;
+}
+
+.internet {
+    min-height: 120px;
+    margin-left: 4em;
+
+}
+
+.hr {
+    width: 40%;
+    height: 5px;
+    margin: 3em auto;
+    background: white;
+}
+
+.green-line {
+    width: 40%;
+    border-top: 5px solid green;
+}
+
+.brand {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.brand-info h4{
+    font-size: 1.8em;
+    margin-bottom: .3em;
+}
+
+.brand-info p {
+    line-height: 1.5;
+}
+
+
+.brand-logo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.brand-logo img{
+    width: 80%;
+}
+
+.oracle, .netflix, .coca, .google, .amazon {
+    width: 15%;
+}
+
+
+
+
+.case-study {
+    width: 90%;
+    margin: 3em auto;
+}
+
+.case-study-info h4 {
+    font-size: 1.8em;
+    margin-bottom: .3em;
+
+}
+.case-study-info p{
+    line-height: 1.5;
+
+}
+
+.case-study-info p, .case-studies p {
+    margin-bottom: 2em;
+}
+
+.case-studies p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+.case-studies img{
+    width: 100%;
+}
+
+.case-studies h6 {
+    font-size: 1.5em;
+    margin-top: .5em;
+    margin-bottom: .7em;
+}
+
+.case-studies {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lays {
+    width: 30%;
+}
+
+.airtaskers {
+    width: 30%;
+    
+}
+
+.burger {
+    width: 30%;
+
+}
+
+.feedback {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.feedback-info h4 {
+    font-size: 1.8em;
+    margin-bottom: .3em;
+
+}
+.feedback-info{
+    line-height: 1.5;
+}
+
+.customers-feedback {
+    width: 60%;
+    margin-top: 4em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.quote {
+    width: 10%;
+    margin-bottom: .5em;
+}
+
+.rating {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.rating img{
+    width: 8%;
+}
+
+.customer-info img {
+    width: 15%;
+    height: 38px;
+    margin-right: 1em;
+    border-radius: 8px;
+}
+
+.first-customer, .second-customer, .third-customer {
+    min-width: 285px;
+
+}
+
+
+.first-feedback, .second-feedback, .third-feedback {
+    word-spacing: 3px;
+
+}
+
+
+.first-customer {
+    width: 20%;
+    padding: 1.5em;
+
+    border: 2px solid gray;
+    border-radius: 20px;
+
+}
+
+.first-feedback,.third-feedback {
+    height: 123.2px;
+    
+}
+
+
+.second-customer {
+    width: 20%;
+    padding: 1.5em;
+    border: 2px solid gray;
+    border-radius: 20px;
+    margin-left: 4em;
+
+}
+
+.third-customer {
+    width: 20%;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 1.5em;
+    margin-left: 4em;
+
+}
+
+.customer-info {
+    display: flex;
+
+}
+
+
+
+.customer-name p {
+    padding-top: .6em;
+    font-size: .8em;
+}
+
+
+.company-info {
+    margin-top: -2em;
+}
+.company-info p{
+    margin-bottom: 1em;
+}
+.icon {
+    width: 11%;
+    display: flex;
+    justify-content: center;
+    height: 32px;
+    background: green;
+    border-radius: 3px;
+    margin-bottom: 1em;
+}
+
+
+
+
+.contact {
+    width: 90%;
+    margin: 4em auto;
+}
+
+.contact-info h4 {
+    font-size: 1.8em;
+    margin-bottom: .3em;
+}
+
+.contact-info p {
+    line-height: 1.5;
+}
+
+.contact-details {
+    width: 80%;
+    display: flex;
+    margin-top: 4em;
+    justify-content: space-between;
+}
+
+.contact-details img{
+    width: 50%;
+
+}
+
+
+.form {
+    width: 50%;
+    margin-right: 4em;
+}
+
+.form input,textarea{
+    border-radius: 5px;
+    border: 1px solid gray;
+    resize: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.submit-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit-btn a {
+    background: green;
+    border-radius: 5px;
+    color: white;
+    padding: .6em 1.2em ;
+    display: flex;
+}
+
+.submit-btn a img{
+    width: 24%;
+    margin-left: .4em;
+}
+
+.blog {
+    width: 90%;
+    margin: 4em auto;
+}
+
+
+
+.blog-post {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-post img {
+    width: 100%;
+    display: block;
+}
+
+.blog-info h4 {
+    font-size: 1.8em;
+    margin-bottom: .3em;
+}
+
+.blog-info p {
+    line-height: 1.5;
+    margin-bottom: 3em;
+}
+
+.blog-post h6 {
+    color: green;
+    font-size: .8em;
+    margin-bottom: .5em;
+    margin-top: 1em;
+}
+
+.blog-post h5 {
+    width: 100%;
+    font-size: 1.3em;
+}
+
+.blog-post p {
+    font-size: .8em;
+}
+
+.first-article {
+    width: 22%;
+  
+}
+
+.second-article, .third-article, .forth-article {
+    width: 22%;
+    
+    
+}
+
+.quote-info {
+    width: 100%;
+    background: green;
+    
+}
+
+
+.promote {
+    padding: 2em;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.promote p {
+    font-size: 1.9em;
+    text-align: center;
+    color: white;
+}
+
+.promote a {
+    text-align: center;
+    display: inline-block;
+    color: green;
+    background: white;
+    margin: 0 auto;
+    margin-top: 1.2em;
+}
+
+.smart-social {
+    width: 90%;
+    margin: 3em auto;
+    
+}
+
+.smart-social-center {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.second-part {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.smart {
+    width: 50%;
+}
+
+.smart-social h5 {
+    margin-bottom: .4em;
+    color: green;
+    font-size: 1em;
+}
+
+.smart-social p {
+    font-size: .9em;
+}
+
+
+.second-part  h6 {
+    font-size: 1em;
+    color: green;
+
+}
+
+.second-part li {
+    font-size: .9em;
+    padding: .5em 0;
+
+}
+
+footer {
+    background: rgb(203, 197, 197);
+    color: black;
+} 
+
+.copyright {
+    width: 90%;
+    margin: 0 auto;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: .7em;
+    
+}
+
+.copyright-info {
+    width: 80%;
+}
+
+
+
+
+.media-links li a{
+    padding: 0;
+    margin: 0 .5em;
+}
+
+.media-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.media-links img {
+    width: 15px;
+
+    
+}
+
+
+
+.media-links li {
+    padding: 0%;
+}
+
+
+
+
+@media (max-width: 847px) {
+
+  
+    .nav-btn {
+        display: none;
+    } 
+
+    
+
+    
+    
+}
+
+@media (min-width: 847px) {
+
+    .nav-center {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        transition: all 0.3s linear;
+        
+    }
+
+    .nav-links li  {
+        text-decoration: none;
+        padding: 20px;
+        color: gray;
+    }
+
+    .nav-links li a{
+        font-weight: bold;
+    }
+
+    .nav-links li:hover{
+        background: rgb(240, 237, 237)
+    }
+
+
+
+
+
+    .nav-btn {
+        padding: 20px;
+    }
+
+    .nav-btn a {
+        color: white;
+        padding: .5em 1em;
+        background: green;
+        border-radius: 5px;
+    } 
+
+
+        
+    .menu-btn {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 880px) {
+    .work-done{
+        width: 59%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 4.5em;
+        
+    }
+
+    .projects, .hours, .clients {
+        min-width: 241.5px;
+        
+    }
+
+    .projects, .hours {
+        margin-bottom: 1.5em;
+
+    }
+}
+
+@media (max-width: 794px) {
+
+   
+
+ 
+
+    .job-details {
+        flex-direction: column;
+    }
+
+    .social-resp {
+        margin-left: 4em;
+        margin-bottom: 2em;
+
+    }
+        
+    .search {
+        margin-bottom: 2em;
+        
+    }
+
+    .case-studies {
+        flex-direction: column;
+    }
+
+    .lays, .airtaskers, .burger {
+        width: 70%;
+        margin-left: 4em;
+    }
+
+    .customers-feedback {
+        flex-direction: column;
+    }
+
+    .first-customer {
+        width: 80%;
+        margin-left: 2.5em;
+        margin-bottom: 1.5em;
+        
+    }
+
+    .second-customer, .third-customer {
+        width: 80%;
+        margin-bottom: 1.5em;
+        margin-left: 2.5em;
+        
+    }
+
+    .contact-details {
+        flex-direction: column;
+    }
+
+    .form{
+        width: 100%;
+        margin-bottom: 4em;
+    }
+
+    .company-info {
+        width: 100%;
+    }
+
+
+    .blog-post {
+        flex-direction: column;
+    }
+
+    .first-article, .second-article, .third-article, .forth-article {
+        width: 70%;
+        margin-left: 4em;
+        
+        
+    }
+
+    .first-article, .second-article, .third-article {
+        margin-bottom: 2em;
+    }
+
+
+   
+
+
+
+
+
+    
+}
+
+@media (max-width: 624px) {
+    .smart-social-center {
+        flex-direction: column;
+    }
+
+    .smart {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .second-part {
+        width: 90%;
+
+
+    }
+    
+}
+
+
+@media (max-width: 632px) {
+    .case-study-info  br{
+        content: "";
+    }
+    .brand-info   br{
+        content: "";
+    }
+    .blog-info  br{
+        content: "";
+    }
+        
+    
+    
+}
+
+
+@media (max-width: 558px) {
+    .job-info br{
+        content: "";
+    }
+
+}
+
+@media (max-width: 461px) {
+    .business-info p br{
+        content: "";
+    }
+
+}
+
+@media (max-width: 775px) {
+    .business-info h1 br{
+        content: "";
+    }
+
+}
+
+@media (max-width: 343px) {
+    .customers-feedback {
+        margin-left: -2em;
+    }
+
+    
+}
+
+@media (max-width: 934px) {
+  .promote br {
+      content: "";
+  }
+
+    
+}
+
+@media (min-width:794px) and (max-width: 1050px) {
+   .customers-feedback {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+   }
+
+   .third-customer {
+       margin-top: 2em;
+       margin-left: .5em;
+   }
+
+  
+  
+
+}
+
+
+@media (min-width:794px) and (max-width: 1082px) {
+    .blog-post h5 {
+        font-size: .8em;
+    }
+  
+
+}
+
+@media (max-width: 676px) {
+    .promote p {
+        font-size: 1em;
+    }
+  
+
+}
+
+@media (min-width: 1477px) {
+    .nav-center {
+        max-width: 1477px;
+        margin: 0 auto;
+    }
+
+    .work-done {
+        max-width: 874px;
+    }
+
+    
+    .hr {
+        max-width: 614px;
+    }
+
+   
+
+    
+    
+
+    .job,
+    .brand,
+    .case-study,
+    .feedback,
+    .contact,.blog,
+    .smart-social,
+    .copyright {
+        max-width: 1428px;
+        
+    }
+}
+    
+
+
+
+
