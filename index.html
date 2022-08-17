@@ -46,7 +46,7 @@
     <section class="hero-section">
         <div class="business">
             <div class="business-info">
-                <h1>Market your business <br> faster with <span>Smart Socials</span></h1>
+                <h1>Market your business <br> faster with <span id="green">Smart Socials</span></h1>
                 <p>We are a digital marketing agency that develop strategies <br> and promote your campaign across the globe</p>
                 <a href="" class="started">Get Started</a>
             </div>
@@ -450,7 +450,7 @@
         <footer>
             <div class="copyright">
                 <div class="copyright-info">
-                    <p>Design by Frapisky &copy;2022</p>
+                    <p>Design by Frapisky &copy; <span id="year"></span></p>
 
                 </div>
 
@@ -476,6 +476,10 @@
     <script>
         const menuBtn = document.querySelector('.menu-btn');
         const links = document.querySelector('.nav-links');
+        const currentYear = document.querySelector('#year');
+        const date = new Date()
+        currentYear.innerHTML= date.getFullYear()
+        
 
         menuBtn.addEventListener("click", function () {
             links.classList.toggle('show-links')

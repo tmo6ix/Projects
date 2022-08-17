@@ -142,7 +142,7 @@ p{
 
 
 
-span {
+#green {
     color:green;
 }
 
@@ -393,7 +393,7 @@ span {
 }
 
 .customers-feedback {
-    width: 60%;
+    width: 80%;
     margin-top: 4em;
     display: flex;
     justify-content: space-between;
@@ -453,7 +453,8 @@ span {
     padding: 1.5em;
     border: 2px solid gray;
     border-radius: 20px;
-    margin-left: 4em;
+    margin-left: 3em;
+
 
 }
 
@@ -462,7 +463,8 @@ span {
     border: 2px solid gray;
     border-radius: 20px;
     padding: 1.5em;
-    margin-left: 4em;
+    margin-left: 3em;
+    
 
 }
 
@@ -596,6 +598,7 @@ span {
 
 .blog-post h5 {
     width: 100%;
+    margin-bottom: .3em;
     font-size: 1.3em;
 }
 
@@ -636,6 +639,7 @@ span {
 .promote p {
     font-size: 1.9em;
     text-align: center;
+    line-height: 1.3;
     color: white;
 }
 
@@ -829,6 +833,8 @@ footer {
     }
 }
 
+
+
 @media (max-width: 794px) {
 
    
@@ -860,6 +866,8 @@ footer {
     }
 
     .customers-feedback {
+        margin-left: 1.5em;
+        width: 40%;
         flex-direction: column;
     }
 
@@ -906,6 +914,14 @@ footer {
         margin-bottom: 2em;
     }
 
+
+    .icon {
+        width: 8%;
+    }
+
+    .promote p {
+        line-height: 1.6;
+    }
 
    
 
@@ -990,13 +1006,16 @@ footer {
 
 @media (min-width:794px) and (max-width: 1050px) {
    .customers-feedback {
+       margin-left: auto;
+       margin-right: auto;
        display: grid;
        grid-template-columns: 1fr 1fr;
+       
    }
 
    .third-customer {
        margin-top: 2em;
-       margin-left: .5em;
+       margin-left: .1em;
    }
 
   
@@ -1021,9 +1040,9 @@ footer {
 
 }
 
-@media (min-width: 1477px) {
+@media (min-width: 1200px) {
     .nav-center {
-        max-width: 1477px;
+        max-width: 1240px;
         margin: 0 auto;
     }
 
@@ -1033,7 +1052,8 @@ footer {
 
     
     .hr {
-        max-width: 614px;
+        max-width: 470px;
+        
     }
 
    
@@ -1048,7 +1068,7 @@ footer {
     .contact,.blog,
     .smart-social,
     .copyright {
-        max-width: 1428px;
+        max-width: 1200px;
         
     }
 }
